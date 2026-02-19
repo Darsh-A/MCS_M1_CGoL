@@ -27,7 +27,7 @@ Conway's Life uses `B3/S23`:
 - Birth: dead cell with exactly 3 neighbors becomes alive.
 - Survival: live cell survives with 2 or 3 neighbors.
 
-![rule.png](docs/demo_outputs/rule.png)
+![rule.png](tests/output/demo_outputs/rule.png)
 
 Thus using the above ruleset CGoL gives birth to various different patterns
 ref: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Pattern_taxonomy
@@ -35,8 +35,8 @@ ref: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Pattern_taxonomy
 one of the most common pattern "The Glider" is generated below
 
 **Output**
-![glider_t0](docs/demo_outputs/glider_t0.png)
-Animation: [glider_motion.mp4](docs/demo_outputs/glider_motion.mp4)
+![glider_t0](tests/output/demo_outputs/glider_t0.png)
+![glider_motion](tests/output/demo_outputs/glider_motion.gif)
 
 ## 2. Components and Patterns in This Project
 
@@ -52,10 +52,10 @@ From these patterns (or hereby called atomic componenents) we can build all the 
 
 | Component | Snapshot | Animation |
 | --- | --- | --- |
-| `glider` | ![atomic_glider_grid_snapshot.png](docs/demo_outputs/atomic_glider_grid_snapshot.png) | ![atomic_glider_grid_motion.gif](docs/demo_outputs/atomic_glider_grid_motion.gif) |
-| `gun` | ![atomic_gun_grid_snapshot.png](docs/demo_outputs/atomic_gun_grid_snapshot.png) | ![atomic_gun_grid_motion.gif](docs/demo_outputs/atomic_gun_grid_motion.gif) |
-| `eater` | ![atomic_eater_grid_snapshot.png](docs/demo_outputs/atomic_eater_grid_snapshot.png) | ![atomic_eater_grid_motion.gif](docs/demo_outputs/atomic_eater_grid_motion.gif) |
-| `reflector` | ![atomic_reflector_grid_snapshot.png](docs/demo_outputs/atomic_reflector_grid_snapshot.png) | ![atomic_reflector_grid_motion.gif](docs/demo_outputs/atomic_reflector_grid_motion.gif) |
+| `glider` | ![atomic_glider_grid_snapshot.png](tests/output/demo_outputs/atomic_glider_grid_snapshot.png) | ![atomic_glider_grid_motion.gif](tests/output/demo_outputs/atomic_glider_grid_motion.gif) |
+| `gun` | ![atomic_gun_grid_snapshot.png](tests/output/demo_outputs/atomic_gun_grid_snapshot.png) | ![atomic_gun_grid_motion.gif](tests/output/demo_outputs/atomic_gun_grid_motion.gif) |
+| `eater` | ![atomic_eater_grid_snapshot.png](tests/output/demo_outputs/atomic_eater_grid_snapshot.png) | ![atomic_eater_grid_motion.gif](tests/output/demo_outputs/atomic_eater_grid_motion.gif) |
+| `reflector` | ![atomic_reflector_grid_snapshot.png](tests/output/demo_outputs/atomic_reflector_grid_snapshot.png) | ![atomic_reflector_grid_motion.gif](tests/output/demo_outputs/atomic_reflector_grid_motion.gif) |
 
 ---
 
@@ -72,8 +72,8 @@ Now for propogation, we want our signal to redirect in any direction we want. Fo
 Thus first criteria is now complete!!
 
 **Output**
-![reflector_gun_setup](docs/demo_outputs/reflector_gun_setup.png)
-Animation: [reflector_gun_motion.mp4](docs/demo_outputs/reflector_gun_motion.mp4)
+![reflector_gun_setup](tests/output/demo_outputs/reflector_gun_setup.png)
+![reflector_gun_motion](tests/output/demo_outputs/reflector_gun_motion.gif)
 
 ### B. Boolean Logic
 
@@ -91,21 +91,21 @@ Here we use the AND gate but add another `gun` and an `eater` right at the end o
 
 
 
-*All the combinations of inputs can be found in the output directory as video files for review
+*All the combinations of inputs can be found in the output directory as GIF files for review
 
 **Output**
 
 ##### NOT Gate Output
-![not_gate_setup](docs/demo_outputs/not_gate_demo_setup.png)
-Animation: [not_gate_motion.mp4](docs/demo_outputs/not_gate_demo_motion.mp4)
+![not_gate_setup](tests/output/demo_outputs/not_gate_demo_setup.png)
+![not_gate_motion](tests/output/demo_outputs/not_gate_demo_motion.gif)
 
 ##### AND Gate Output
-![and_gate_setup](docs/demo_outputs/and_gate_demo_setup.png)
-Animation: [and_gate_motion.mp4](docs/demo_outputs/and_gate_demo_motion.mp4)
+![and_gate_setup](tests/output/demo_outputs/and_gate_demo_setup.png)
+![and_gate_motion](tests/output/demo_outputs/and_gate_demo_motion.gif)
 
 ##### OR Gate Output
-![or_gate_setup](docs/demo_outputs/or_gate_demo_setup.png)
-Animation: [or_gate_motion.mp4](docs/demo_outputs/or_gate_demo_motion.mp4)
+![or_gate_setup](tests/output/demo_outputs/or_gate_demo_setup.png)
+![or_gate_motion](tests/output/demo_outputs/or_gate_demo_motion.gif)
 
 Thus now we satisfy the second condiiton!!
 
@@ -115,7 +115,7 @@ We can use a simple SR-Latch here to satisfy the requirement.
 
 Due to time constraints i wasnt able to implement the memory latch so heres a reference from one of the guides i was following:
 
-![latch.gif](docs/demo_outputs/latch.gif)
+![latch.gif](tests/output/demo_outputs/latch.gif)
 
 ---
 
@@ -126,8 +126,8 @@ With this we prove that CGoL is Turing Complete!!!
 Port-aligned composition with gate input enabling.
 
 **Output**
-![and_to_not_setup](docs/demo_outputs/and_to_not_setup.png)
-Animation: [and_to_not_motion.mp4](docs/demo_outputs/and_to_not_motion.mp4)
+![and_to_not_setup](tests/output/demo_outputs/and_to_not_setup.png)
+![and_to_not_motion](tests/output/demo_outputs/and_to_not_motion.gif)
 
 ## 4. Conclusion
 The Repository represents a from scratch pipeline for proving life as turing complete while also building a starter pipeline to build a turing machine later on. In the current state the repository is just implemnented as a proof of concept though i tried making it as practical as possible.
