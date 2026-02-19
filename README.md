@@ -37,8 +37,10 @@ one of the most common pattern "The Glider" is generated below
 **Output**
 ![glider_t0](tests/output/demo_outputs/glider_t0.png)
 <!--![glider_motion](tests/output/demo_outputs/glider_motion.gif) -->
+
 https://github.com/user-attachments/assets/b1fc0ce2-e215-4f7a-974b-1cbb93589462
-Fast forward / scrub: use the video link here -> [glider_motion.mp4](tests/output/demo_outputs/glider_motion.mp4)
+
+
 
 ## 2. Components and Patterns in This Project
 
@@ -81,8 +83,6 @@ Thus first criteria is now complete!!
 https://github.com/user-attachments/assets/9a77dfc0-92ea-4902-b192-ecbc817a2f94
 
 
-Fast forward / scrub: use the video link here -> [reflector_gun_motion.mp4](tests/output/demo_outputs/reflector_gun_motion.mp4)
-
 ### B. Boolean Logic
 
 We represent boolean logic in computation by `Logic Gates`. The basic logic gates are `NOT`, `AND` and `OR`.
@@ -111,7 +111,6 @@ Here we use the AND gate but add another `gun` and an `eater` right at the end o
 https://github.com/user-attachments/assets/6eb96705-6e5e-4af1-8198-89005a2dfa35
 
 
-Fast forward / scrub: use the video link here -> [not_gate_demo_motion.mp4](tests/output/demo_outputs/not_gate_demo_motion.mp4)
 
 ##### AND Gate Output
 ![and_gate_setup](tests/output/demo_outputs/and_gate_demo_setup.png)
@@ -121,7 +120,6 @@ Fast forward / scrub: use the video link here -> [not_gate_demo_motion.mp4](test
 https://github.com/user-attachments/assets/2a18ee31-0bcd-4ee8-b6f1-e1712328b49e
 
 
-Fast forward / scrub: use the video link here -> [and_gate_demo_motion.mp4](tests/output/demo_outputs/and_gate_demo_motion.mp4)
 
 ##### OR Gate Output
 ![or_gate_setup](tests/output/demo_outputs/or_gate_demo_setup.png)
@@ -131,7 +129,6 @@ Fast forward / scrub: use the video link here -> [and_gate_demo_motion.mp4](test
 https://github.com/user-attachments/assets/d124da34-5fba-483b-868a-8eb92854a9e1
 
 
-Fast forward / scrub: use the video link here -> [or_gate_demo_motion.mp4](tests/output/demo_outputs/or_gate_demo_motion.mp4)
 
 Thus now we satisfy the second condiiton!!
 
