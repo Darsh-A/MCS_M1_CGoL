@@ -138,6 +138,8 @@ Fast forward / scrub: use the video link here -> [and_to_not_motion.mp4](tests/o
 ## 4. Conclusion
 The Repository represents a from scratch pipeline for proving life as turing complete while also building a starter pipeline to build a turing machine later on. In the current state the repository is just implemnented as a proof of concept though i tried making it as practical as possible.
 
+In hindsight i could have just used [Golly](https://golly.sourceforge.io/) to demonstrate the gates and circuit, but this turned out to be a good learning experience :) 
+
 In future I would like to expand the implementation of the pipeline and working on building some circuits using CGoL
 
 #### References:
