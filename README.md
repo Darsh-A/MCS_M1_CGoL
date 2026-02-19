@@ -34,7 +34,7 @@ ref: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Pattern_taxonomy
 
 one of the most common pattern "The Glider" is generated below
 
-**Output**
+
 ![glider_t0](tests/output/demo_outputs/glider_t0.png)
 <!--![glider_motion](tests/output/demo_outputs/glider_motion.gif) -->
 
@@ -51,8 +51,6 @@ To prove CGoL is Turing Complete we will use some of the following patterns as b
 - `reflector`
 
 From these patterns (or hereby called atomic componenents) we can build all the componenets required by our system to prove its turing complete
-
-**Output**
 
 | Component | Snapshot | Animation |
 | --- | --- | --- |
@@ -75,7 +73,7 @@ Now for propogation, we want our signal to redirect in any direction we want. Fo
 
 Thus first criteria is now complete!!
 
-**Output**
+
 ![reflector_gun_setup](tests/output/demo_outputs/reflector_gun_setup.png)
 <!--![reflector_gun_motion](tests/output/demo_outputs/reflector_gun_motion.gif)-->
 
