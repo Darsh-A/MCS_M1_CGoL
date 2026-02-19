@@ -37,6 +37,7 @@ one of the most common pattern "The Glider" is generated below
 **Output**
 ![glider_t0](tests/output/demo_outputs/glider_t0.png)
 ![glider_motion](tests/output/demo_outputs/glider_motion.gif)
+Fast forward / scrub: use the video link here -> [glider_motion.mp4](tests/output/demo_outputs/glider_motion.mp4)
 
 ## 2. Components and Patterns in This Project
 
@@ -74,6 +75,7 @@ Thus first criteria is now complete!!
 **Output**
 ![reflector_gun_setup](tests/output/demo_outputs/reflector_gun_setup.png)
 ![reflector_gun_motion](tests/output/demo_outputs/reflector_gun_motion.gif)
+Fast forward / scrub: use the video link here -> [reflector_gun_motion.mp4](tests/output/demo_outputs/reflector_gun_motion.mp4)
 
 ### B. Boolean Logic
 
@@ -91,21 +93,24 @@ Here we use the AND gate but add another `gun` and an `eater` right at the end o
 
 
 
-*All the combinations of inputs can be found in the output directory as GIF files for review
+*All the combinations of inputs can be found in the output directory as GIF files for review. To fast forward, use the video links below.
 
 **Output**
 
 ##### NOT Gate Output
 ![not_gate_setup](tests/output/demo_outputs/not_gate_demo_setup.png)
 ![not_gate_motion](tests/output/demo_outputs/not_gate_demo_motion.gif)
+Fast forward / scrub: use the video link here -> [not_gate_demo_motion.mp4](tests/output/demo_outputs/not_gate_demo_motion.mp4)
 
 ##### AND Gate Output
 ![and_gate_setup](tests/output/demo_outputs/and_gate_demo_setup.png)
 ![and_gate_motion](tests/output/demo_outputs/and_gate_demo_motion.gif)
+Fast forward / scrub: use the video link here -> [and_gate_demo_motion.mp4](tests/output/demo_outputs/and_gate_demo_motion.mp4)
 
 ##### OR Gate Output
 ![or_gate_setup](tests/output/demo_outputs/or_gate_demo_setup.png)
 ![or_gate_motion](tests/output/demo_outputs/or_gate_demo_motion.gif)
+Fast forward / scrub: use the video link here -> [or_gate_demo_motion.mp4](tests/output/demo_outputs/or_gate_demo_motion.mp4)
 
 Thus now we satisfy the second condiiton!!
 
@@ -128,6 +133,7 @@ Port-aligned composition with gate input enabling.
 **Output**
 ![and_to_not_setup](tests/output/demo_outputs/and_to_not_setup.png)
 ![and_to_not_motion](tests/output/demo_outputs/and_to_not_motion.gif)
+Fast forward / scrub: use the video link here -> [and_to_not_motion.mp4](tests/output/demo_outputs/and_to_not_motion.mp4)
 
 ## 4. Conclusion
 The Repository represents a from scratch pipeline for proving life as turing complete while also building a starter pipeline to build a turing machine later on. In the current state the repository is just implemnented as a proof of concept though i tried making it as practical as possible.
